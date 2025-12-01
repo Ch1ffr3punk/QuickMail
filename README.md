@@ -8,12 +8,12 @@ the proper values. You can run the server with a
 blacklist or whitelist, so that  your MTA becomes   
 not an open relay.  
 
-In the client you don't have to set a From:, Date:    
-or Message-ID: beader, because the server sets them.  
+In the client you don't have to set a From:, Date: or  
+Message-ID: and MIME beaders, because the server sets them.  
 
 For a Subject: header containing UTF-8 chars there  
 is a MIME button in the lower left, which converts  
-your Subject: content to proper MIME base64 encoding.  
+your Subject: content to proper MIME base64 encoding. 
 
 ![quickmail](img/1.png)
 
